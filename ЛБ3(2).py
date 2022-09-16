@@ -1,5 +1,6 @@
-a = float(input("Введіть значення сторони основи піраміди"))
-b = float(input("Введіть значення іншої сторони основи піраміди"))
-h = float(input("Введіть значення висоти піраміди"))
-v = (a * b * h / 3)
+import sys
+A=float(sys.argv[1])
+B=float(sys.argv[2])
+C=float(sys.argv[3])
+v = (A * B * C / 3)
 print("Об'єм піраміди =", v)
